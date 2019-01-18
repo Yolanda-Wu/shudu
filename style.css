@@ -1,0 +1,119 @@
+.header h1 {
+  text-align: center;
+  color: #f34949;
+  opacity: 0.8;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.game {
+  display: grid;
+  grid: repeat(9, 44px) / auto-flow 44px;
+}
+
+.game input {
+  background-color: #8ca0ff;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.cur_situation {
+  width: 400px;
+  height: 200px;
+  border: 1px solid gray;
+}
+
+.select {
+
+}
+
+.todo {
+  margin: 20px 30px;
+}
+
+.start {
+  border: none;
+  width: 300px;
+  height: 30px;
+  color: white;
+  background-color: #f34949;
+  border-radius: 8px;
+  margin: 20px 50px;
+}
+
+.submit {
+  border: none;
+  width: 300px;
+  height: 30px;
+  color: white;
+  background-color: #f34949;
+  border-radius: 8px;
+  margin: 20px 50px;
+}
+
+.ranking_btn, .submit-garde, .close {
+  border: none;
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: #f34949;
+  border-radius: 8px;
+  margin: 0 30px;
+}
+
+.username-box {
+  display: none;
+  position: fixed;
+  top: 200px;
+  background-color: wheat;
+  border: 1px solid #f34949;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.username-box p {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  color: #f32323;
+}
+
+.rank-chart {
+  display: none;
+  position: fixed;
+  align-self: center;
+  background-color: wheat;
+  border: 1px solid #f34949;
+  border-radius: 15px;
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.chart-header {
+  font-size: 30px;
+  color: #f34949;
+  margin-bottom: 20px;
+}
+
+.rank-chart ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+}
+
+
