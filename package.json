@@ -1,0 +1,26 @@
+{
+  "name": "shudu",
+  "version": "1.0.0",
+  "description": "数据结构课设",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yolanda-Wu/shudu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yolanda-Wu/shudu/issues"
+  },
+  "homepage": "https://github.com/Yolanda-Wu/shudu#readme"
+}
